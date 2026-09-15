@@ -163,14 +163,12 @@ Example:
 ```json
 {
   "llm_calls": 3,
-  "input_tokens": 13290,
-  "output_tokens": 2254,
-  "total_tokens": 15544,
-  "estimated_cost_usd": 0.0
+  "input_tokens": 13851,
+  "output_tokens": 2026,
+  "total_tokens": 15877,
+  "estimated_cost_usd": 0.001647
 }
 ```
-
-The estimated cost remains `0.0` unless model-specific pricing is configured.
 
 ---
 
@@ -292,7 +290,7 @@ ai-lead-enrichment-agent/
 | `linkedin_matcher.py` | Matches website LinkedIn URLs to people |
 | `linkedin_search.py` | External LinkedIn profile discovery |
 | `usage_tracker.py` | Tracks LLM token usage and estimated cost |
-| `utils.py` | Utility/helper functions |
+
 
 ---
 
@@ -347,7 +345,7 @@ Before running the project, make sure the following are installed:
 ### Step 1: Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/divyas15jan2003-star/ai-lead-enrichment-agent.git
 ```
 
 Move into the project directory:
