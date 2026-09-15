@@ -10,6 +10,11 @@ from src.linkedin_matcher import LinkedInMatcher
 from src.linkedin_search import LinkedInSearcher
 from src.usage_tracker import UsageTracker
 
+from src.config import (
+    GROQ_INPUT_COST_PER_MILLION,
+    GROQ_OUTPUT_COST_PER_MILLION,
+)
+
 
 DOMAINS_FILE = Path("domains.json")
 OUTPUT_FILE = Path("output/output.json")
@@ -166,7 +171,10 @@ async def main():
     )
 
     # Token usage tracker
-    usage_tracker = UsageTracker()
+    usage_tracker = UsageTracker(
+        input_cost_per_million=GROQ_INPUT_COST_PER_MILLION,
+        output_cost_per_million=GROQ_OUTPUT_COST_PER_MILLION,
+    )
 
     # LLM extractor
     extractor = CompanyExtractor(

@@ -37,14 +37,13 @@
     "confidence_score": 1.0
   },
   {
-    "company_overview": "Supabase is an open-source Postgres development platform that offers a fully managed database, authentication, real-time, storage, and edge functions. It serves as a Firebase alternative for building production-ready applications.",
-    "target_audience": "AI builders, innovation teams, and enterprises looking to build production-ready Postgres backends.",
+    "company_overview": "Supabase is an open-source Postgres development platform that provides a fully managed database, authentication, real-time, storage, and edge functions. It offers instant APIs, AI integration, and enterprise-grade security for rapid prototyping and scaling.",
+    "target_audience": "AI builders, enterprise innovation teams, and startups looking to prototype and scale applications.",
     "contact_points": [],
     "leadership": [],
     "sources": [
       "https://supabase.com/",
-      "https://supabase.com/solutions/innovation-teams",
-      "https://supabase.com/contact-us"
+      "https://supabase.com/solutions/innovation-teams"
     ],
     "domain": "supabase.com",
     "confidence_score": 0.6
